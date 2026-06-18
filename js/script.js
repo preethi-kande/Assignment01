@@ -96,11 +96,11 @@ console.log(myName); //output - undefined
 
 
 //STEP .0 - Perform Unary typeof operator on various literals to return string, number, Boolean, object, undefined
-typeof 'Welcome to Javascript - Assignment 01'; //output - 'string'
-typeof 236; //output - 'number'
-typeof true; //output - 'boolean'
-typeof {course : 'Javascript', ide : 'Visual Studio Code'}; //output - 'object'
-typeof id; // output - 'undefined'
+console.log(typeof 'Welcome to Javascript - Assignment 01'); //output - string
+console.log(typeof 236); //output - number
+console.log(typeof true); //output - boolean
+console.log(typeof {course : 'Javascript', ide : 'Visual Studio Code'}); //output - object
+console.log(typeof id); // output - undefined
 
 
 //STEP .1 - Use the concatenation operator (+) to display text in the alert box 
